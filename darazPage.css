@@ -1,0 +1,59 @@
+/* Colors similar to Daraz branding */
+:root {
+    --daraz-orange: #F34F2A; /* Orange from Daraz logo */
+    --daraz-gray: #F2F2F2; /* Light gray background */
+    --daraz-text-gray: #333; /* Dark gray text */
+  }
+  
+  /* Header Styling */
+  .daraz-header {
+    background-color: var(--daraz-orange);
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+  }
+  
+  .daraz-header h1 {
+    font-size: 2em;
+    margin: 0;
+  }
+  
+  /* Main Section Styling */
+  .daraz-main {
+    padding-top: 40px;
+    background-color: var(--daraz-gray);
+  }
+  
+  .content-container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Remove default list styling for benefits and how-to-order sections */
+  .benefits ul,
+  .how-to-order ol {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  /* CTA Section Styling */
+  .cta {
+    text-align: center;
+    margin-top: 40px;
+  }
+  
+  .download-daraz-app {
+    background-color: var(--daraz-orange);
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+  }
+
+  .store-name {
+    font-weight: bold; /* Makes the text bold visually */
+  }

@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ChemZone Enterprises</title>
+  <link rel="icon" type="image" href="assets/favicon_io/favicon-32x32.png">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>  
+  <link rel="stylesheet" href="darazPage.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  
+  <nav>
+    <div class="logo">
+      <a href="index.html"><img src="assets/Logo (1).jpeg" alt=""></a>
+    </div>
+    <ul id="menuList"> 
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="Orders.html">Orders</a></li>
+      <li><a href="products.html">Products</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+    <div class="menu-icon">
+      <i class="fa-solid fa-bars" onclick="toggleMenu()"></i>
+    </div>
+  </nav>
+  <script>
+    let menuList = document.getElementById("menuList")
+    menuList.style.maxHeight = "0px";
+
+    function toggleMenu()
+    {
+        if(menuList.style.maxHeight == "0px")
+        {
+            menuList.style.maxHeight = "300px";
+        }
+        else{
+            menuList.style.maxHeight = "0px";
+        }
+    }
+    
+</script>
+
+
+<header class="daraz-header">
+    <div class="content-container">
+      <h1>Get Your Favorite Products! Shop Now on Daraz</h1>
+    </div>
+  </header>
+
+  <main class="daraz-main">
+    <div class="content-container">
+
+      <section class="benefits">
+        <h2>Why Shop on Daraz?</h2>
+        <ul>
+          <li>Extensive Selection</li>
+          <li>Convenience</li>
+          <li>Secure Transactions</li>
+          <li>Fast Delivery</li>
+          <li>Regular Deals & Discounts</li>
+        </ul>
+      </section>
+
+      <section class="how-to-order">
+        <h2>How to Order from Our Official Store on Daraz</h2>
+        <ol>
+          <li>Download the Daraz App</li>
+          <li>Create an Account</li>
+          <li>Search for Our Store</li>
+          <li>Browse Products</li>
+          <li>Add to Cart</li>
+          <li>Checkout</li>
+          <li>Track Your Order</li>
+        </ol>
+      </section>
+
+      <section class="cta">
+        <p>Shop with Confidence!</p>
+        <a href="https://www.daraz.pk/" target="_blank" class="download-daraz-app">Download Daraz App Now</a>
+      </section>
+
+    </div>
+  </main>
+
+  
+
+  <script src="https://kit.fontawesome.com/f8e1a90484.js" crossorigin="anonymous"></script>
+
+ 
+  
+  
+  
+
+  
+
+  
+  
+  <!-- Footer -->
+<footer class="text-center text-lg-start bg-body-tertiary text-muted">
+  <!-- Section: Social media -->
+  <section class="social-section">
+    <span>Get connected with us on social networks:</span>
+    <div class="social-links">
+      <a href="">
+        <i class="fa-brands fa-youtube"></i>
+      </a>
+      <a href="https://www.facebook.com/profile.php?id=61559196905839" class="me-4 text-reset">
+        <i class="fa-brands fa-facebook"></i>
+      </a>
+      <a href="https://www.instagram.com/prismatichome.1?igsh=dDJwYzc0eTFxYm1n" class="me-4 text-reset">
+        <i class="fa-brands fa-instagram"></i>
+      </a>
+    </div>
+  </section>
+  <!-- Section: Social media -->
+
+  <!-- Section: Links  -->
+  <section class="">
+    <div class="container text-center text-md-start mt-5">
+      <!-- Grid row -->
+      <div class="row mt-3">
+        <!-- Grid column -->
+        <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+          <!-- Content -->
+          <h6 class="text-uppercase fw-bold mb-4">
+            <i class="fas fa-gem me-3"></i>Chemzone Enterprises
+          </h6>
+          <p>
+            Our cleaning solutions deliver powerful cleaning. Specially formulated to tackle dirt and grime, they leave surfaces sparkling while being gentle enough for everyday use.
+             Experience the difference of clean you can trust, safe for both your home and your skin.
+          </p>
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+          <!-- Links -->
+          <h6 class="text-uppercase fw-bold mb-4">
+            Pages
+          </h6>
+          <p>
+            <a href="index.html" class="text-reset">Home</a>
+          </p>
+          <p>
+            <a href="about.html" class="text-reset">About</a>
+          </p>
+          <p>
+            <a href="products.html" class="text-reset">Products</a>
+          </p>
+          <p>
+            <a href="Orders.html" class="text-reset">Orders</a>
+          </p>
+          <p>
+            <a href="contact.html" class="text-reset">Contact</a>
+          </p>
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+          <!-- Links -->
+          <h6 class="text-uppercase fw-bold mb-4">
+            Useful links
+          </h6>
+        <p>
+          <a href="darazPage.html" class="text-reset">How to Order</a>
+        </p>
+        <p>Our Official Store at Daraz <strong class="store-name">CeraCare Solutions</strong></p>
+
+          
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+          <!-- Links -->
+          <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
+          <p><i class="fas fa-home me-3"></i> Defense Road, Engineers Town, Lahore</p>
+          <p>
+            <i class="fas fa-envelope me-3"></i>prismatic.chemicals@gmail.com
+          </p>
+          <p><i class="fas fa-phone me-3"></i> +923289788040</p>
+          
+        </div>
+        <!-- Grid column -->
+      </div>
+      <!-- Grid row -->
+    </div>
+  </section>
+  <!-- Section: Links  -->
+
+  <!-- Copyright -->
+  <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+    © 2024 Copyright:
+    <a class="text-reset fw-bold" href="">Chemzone Enterprises</a>
+  </div>
+  <!-- Copyright -->
+</footer>
+<!-- Footer -->
+
+ 
+</body>
+</html>
